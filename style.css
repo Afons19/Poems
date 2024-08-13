@@ -23,13 +23,12 @@ header {
     color: white;
     font-family: var(--fonte01);
     text-align: center;
-    padding: 10vh;
+    padding: 7vh;
 }
 
 header > h1 {
     font-family: var(--fonte02);
     font-variant: small-caps;
-    font-size: 15vw;
     font-size: 3em;
 }
 
@@ -38,26 +37,59 @@ header > p {
     padding: 5px;
 }
 
-section {
-    padding: 10vh 0px 10vh 30px;
+article {
     font-family: var(--fonte02);
     font-size: 2vw;
-    font-weight: normal;
+    background-color: bisque;
+    font-weight: 500;    
 }
 
-section > p {
-    padding-bottom: 10px;
+article > p {
+    padding: 5vh 0vh 10vh 30px;
 }
-
 
 .normal {
-    background-color: beige;
+    background-color: white;
+    color: black;
 }
 
 .imagem {
-    background-color: rgba(0, 0, 0, 0.573);
-    background-image: url('imagens/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg');
-    background-attachment: fixed;
+    padding: 30px 18px;
+    box-shadow: inset, 6px 8px 7px 13px rgba(0, 0, 0, 0.571);
     background-size: cover;
+    background-attachment: fixed;
+}
+
+.imagem > p {
+    color: white;
     display: inline-block;
+    padding: 14px 8px;
+    text-shadow: 1px 1px 0px black;
+    background-color: rgba(0, 0, 0, 0.571);
+}
+
+
+#img01 {
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+}
+
+#img02 {
+    background-image: url('imagens/background002.jpg');
+    background-position: right bottom;
+}
+
+#img03 {
+    background-image: url('imagens/background003.jpeg');
+    background-position: right bottom;
+}
+
+footer {
+    padding: 6vh;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: var(--fonte02);
+    font-weight: 500;
+    background-color: black;
 }
